@@ -5,4 +5,8 @@ Vue.config.productionTip = false;
 
 new Vue({
   render: (h) => h(App),
-}).$mount('#app');
+  data: {
+    product: 'Socks',
+  },
+})
+.$mount('#app');
